@@ -14,7 +14,7 @@ class Demo {
 
     public static void main(String args[]) 
     {
-        Demo d = new Demo(10,20);
+        Demo d = new Demo(10,40);
         d.show();
         System.out.println(Demo.ch);
     }
