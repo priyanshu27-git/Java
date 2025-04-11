@@ -6,7 +6,7 @@ public class daysUsingSwitch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int day = scanner.nextInt();
-        String dayName = "";
+        String dayName = "null";
 
         switch (day) {
             case 1:
