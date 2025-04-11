@@ -12,7 +12,7 @@ public class DivisibleByFiveAndEleven {
         } 
         else 
         {
-            System.out.println("Number is not divisible by 5 & 11");
+            System.out.println("Number is not divisible by 5 and 11");
         }
     }
 }
