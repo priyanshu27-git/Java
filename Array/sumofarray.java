@@ -14,7 +14,6 @@ public class sumofarray {
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i]; 
         }
-
         System.out.println(sum);
     }
 }
