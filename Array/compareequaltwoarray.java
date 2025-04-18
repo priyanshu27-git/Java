@@ -13,10 +13,10 @@ public class compareequaltwoarray {
             }
         }
         if(equal==true){
-        System.out.println("Arrays are same");
+        System.out.println("Elements in Array are same");
         }
     else{
-        System.out.println("Arrays are not same");
+        System.out.println("Elements in Arrays are not same");
     }
 }
 }
