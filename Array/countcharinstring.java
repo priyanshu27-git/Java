@@ -12,6 +12,5 @@ public class countcharinstring {
             }
         }
         System.out.println( ch + " is present " + count + " times ");
-
     }
 }
