@@ -10,7 +10,7 @@ public class calculator {
         a = scanner.nextInt();
         b = scanner.nextInt();
         c = scanner.next().charAt(0);
-        switch (c) {
+        switch(c) {
             case '+': {
                 ans = a + b;
                 break;
@@ -43,6 +43,6 @@ public class calculator {
                 System.out.println("NA");
                 break;
         }
-        System.out.println(+ans);
+        System.out.println(ans);
     }
 }
