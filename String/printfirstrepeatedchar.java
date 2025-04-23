@@ -1,4 +1,4 @@
-public class removeduplicateinstring {
+public class printfirstrepeatedchar {
     public static void main(String[] args) {
         String str = "priyanshusahu";
         String newstr = "";
@@ -11,8 +11,6 @@ public class removeduplicateinstring {
                     System.out.println("1st Repeat " +c );
                     break;
                 }
-        }
-        System.out.println("Original string = " +str);
-        System.out.println("Updated String = " +newstr);
+            }
     }
 }
