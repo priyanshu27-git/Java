@@ -7,10 +7,6 @@ public class removeduplicateinstring {
             if(newstr.indexOf(c) == -1){
                 newstr = newstr + c;
                 }
-                else{
-                    System.out.println("1st Repeat " +c );
-                    break;
-                }
         }
         System.out.println("Original string = " +str);
         System.out.println("Updated String = " +newstr);

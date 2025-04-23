@@ -5,8 +5,9 @@ public class daysUsingSwitch {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter no. b/w 1-7 = ");
         int day = scanner.nextInt();
-        String dayName = "null";
+        String dayName = " ";
 
         switch (day) {
             case 1:
