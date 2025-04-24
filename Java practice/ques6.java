@@ -5,6 +5,6 @@ public class ques6 {
         temp=a;
         a=b;
         b=temp;
-        System.out.println(+a + " " + +b);
+        System.out.println(a + " "  +b);
 }
 }

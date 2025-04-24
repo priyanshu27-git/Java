@@ -4,6 +4,6 @@ public class ques7{
         a = a + b;
         b = a - b;
         a = a - b;
-        System.out.println(+a + " " + +b);
+        System.out.println(a + " " +b);
 }
 }
