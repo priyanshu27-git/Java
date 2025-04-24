@@ -1,6 +1,4 @@
-
 import java.util.Scanner;
-
 public class table {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -11,6 +9,5 @@ public class table {
             table = n * i;
             System.out.print(table + " ");
         }
-        
     }
 }
