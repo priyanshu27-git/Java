@@ -7,6 +7,6 @@ class string{
         System.out.println(str.toUpperCase());
         System.out.println(str.replace('H','l'));
         System.out.println(str.trim().charAt(3));
-        System.out.println();
+        System.out.println(str);
     }
 }

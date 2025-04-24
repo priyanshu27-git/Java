@@ -1,7 +1,8 @@
+
 class palindrome {
-    public static void main(String[] args)
-    {
-        String str = "priyanshu";
+
+    public static void main(String[] args) {
+        String str = "eye";
         int i=0,j=str.length()-1;
         while(i<j)
         {
@@ -15,9 +16,10 @@ class palindrome {
                 j--;
             }
         }
-        if(i==j)
-        System.out.println("Palindrome");
-        else
-        System.out.println("Not Palindrome");
+        if (i == j) {
+            System.out.println("Palindrome"); 
+        }else {
+            System.out.println("Not Palindrome");
+        }
     }
 }
