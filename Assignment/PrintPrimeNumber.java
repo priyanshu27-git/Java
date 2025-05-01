@@ -1,19 +1,18 @@
 public class PrintPrimeNumber {
-        public static void printprime() { 
-             Boolean b = true;
-            for (int i = 2; i < 10; i++) {
-                int temp = i;
-                for(int j = 2; j < i; j++){
-                    if(temp % j == 0){
+        public static void printprime(int n) { 
+                Boolean b = true;
+                for (int i = 2; i < n; i++) {
+                    if(n % i == 0){
                         b = false;
                     }
-                    else if(temp % j != 0 && j == temp - 1){
-                        System.out.println(temp);
-                    }
-                }   
-            }  
-        }
-        public static void main(String[] args) {
-            printprime();
+                }
+                if(b){
+                    System.out.println( n +" is Prime");
+                }
+            }
+        public static void main(String[] args){
+            for (int i = 2; i < 100; i++) {
+                printprime(i);
+            }
         }
     }
