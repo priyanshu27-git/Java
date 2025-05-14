@@ -10,6 +10,7 @@ public class Temperature {
     public static void main(String[] args) {
         Temperature obj = new Temperature();
         obj.settemperature(36);
+        obj.gettemperature();
         System.out.println(obj.gettemperature());
     }
     
