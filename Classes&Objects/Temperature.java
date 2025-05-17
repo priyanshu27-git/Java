@@ -13,5 +13,4 @@ public class Temperature {
         obj.gettemperature();
         System.out.println(obj.gettemperature());
     }
-    
 }
