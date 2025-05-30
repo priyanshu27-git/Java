@@ -16,7 +16,7 @@ class palindrome {
                 j--;
             }
         }
-        if (i == j) {
+        if (i >= j) {
             System.out.println("Palindrome"); 
         }else {
             System.out.println("Not Palindrome");
