@@ -11,4 +11,4 @@ public class checkconsonantinarray {
             System.out.println("Number of Vowels = " + count);
             System.out.println("Number of consonants = " + (ch.length - count));   
         }
-    }
+ }
