@@ -18,6 +18,6 @@ public class checkpalindromenumber {
     }
 
     public static void main(String[] args) {
-        palindrome(4994);
+        palindrome(-121);
     }
 }
